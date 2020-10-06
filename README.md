@@ -7,11 +7,13 @@
   - adicação de uma venda;
   - remoção de uma venda
   - geração de gráficos de venda
+  - cadastro, remoção e alteração de um cliente
+  - adicção de produto;
+  - adicição de categoria;
   - visualização e importação de lista de produtos para  arquivo .pdf
   
  Há implementar:
-  - adicção de produto;
-  - adicição de categoria;
+  
   - alteração de venda;
   
   O banco de dados utilizado foi o MySQL 8, para gerar o arquivo pdf foi utilizado o Jasper 6.14 e para a geração da interface o SceneBuilder

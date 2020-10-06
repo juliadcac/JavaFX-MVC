@@ -30,7 +30,7 @@ public class FXMLVBoxController implements Initializable{
 
     @Override
     public void initialize (URL url, ResourceBundle rb){
-        //TODO
+
     }
 
     @FXML
@@ -57,4 +57,15 @@ public class FXMLVBoxController implements Initializable{
         anchorPane.getChildren().setAll(a);
     }
 
-}
+    public void handleMenuItemCadastrosProdutos() throws IOException {
+        AnchorPane a = (AnchorPane) FXMLLoader.load(getClass().getResource("/javafxmvc/view/FXMLAnchorPaneCadastroProdutos.fxml"));
+        anchorPane.getChildren().setAll(a);
+    }
+
+    public void handleMenuItemCadastrosCategorias() throws IOException {
+        AnchorPane a = (AnchorPane) FXMLLoader.load(getClass().getResource("/javafxmvc/view/FXMLAnchorPaneCadastroCategorias.fxml"));
+        anchorPane.getChildren().setAll(a);
+    }
+
+
+    }
